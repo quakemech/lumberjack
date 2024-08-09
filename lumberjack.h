@@ -39,7 +39,7 @@
 #define dbg(ctx, arg...) 			log_dbg(ctx->log, ## arg)
 #define info(ctx, arg...) 			log_info(ctx->log, ## arg)
 #define notice(ctx, arg...) 		log_notice(ctx->log, ## arg)
-#define warn(ctx, arg...) 			log_warn((ctx->log, ## arg)
+#define warn(ctx, arg...) 			log_warn(ctx->log, ## arg)
 #define err(ctx, arg...) 			log_err(ctx->log, ## arg)
 
 /* Log object debug submit macros */
